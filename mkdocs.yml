@@ -1,0 +1,6 @@
+site_name: CloudGuy-IaaC Documentation
+site_description: Cloudguy Documentation
+theme: material
+repo_url: https://github.com/bissessr/TF-IAC-2019
+copyright: Copyright &copy; 2019, <a href="www.linkedin.com/in/raj-bissessar"
+google_analytics: ['UA-27795084-5', 'mkdocs.org']
