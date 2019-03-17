@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# Welcome to Cloudguy - Infrastructure as Code Documentation
 
 For full documentation visit [mkdocs.org](https://mkdocs.org).
 
