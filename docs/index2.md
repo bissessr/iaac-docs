@@ -3,7 +3,6 @@ More details to follow
 
 ## Background
 More details to follow
-Kieran is a pain in the ass
 
 
 ## Commands
@@ -21,8 +20,8 @@ Kieran is a pain in the ass
         ...       # Other markdown pages, images and other files.
 
 # Tables
-|Header 1 | Header 2 | Header 3 |
-|---      | ---      | ---|
+|Header 1 | Header 2 | Header 3|
+|---      | ---      | ---     |
 |column 1 | column 2 | column3 |
 |column 1 | column 2 | column3 |
 |column 1 | column 2 | column3 |
