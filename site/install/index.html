@@ -13,7 +13,7 @@
         <meta name="description" content="Project Documentation">
       
       
-        <link rel="canonical" href="https://github.com/bissessr/iaac-docs/index3/">
+        <link rel="canonical" href="https://github.com/bissessr/iaac-docs/install/">
       
       
         <meta name="author" content="Raj Bissessar">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Installation - CloudGuy Documentation</title>
+        <title>Installing MKDOCS - CloudGuy Documentation</title>
       
     
     
@@ -133,7 +133,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#installation" tabindex="1" class="md-skip">
+      <a href="#installing-mkdocs" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -158,7 +158,7 @@
               CloudGuy Documentation
             </span>
             <span class="md-header-nav__topic">
-              Installation
+              Installing MKDOCS
             </span>
           
         </div>
@@ -268,8 +268,8 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="Overview" class="md-nav__link">
-      Overview
+    <a href=".." title="MKDOCS Overview" class="md-nav__link">
+      MKDOCS Overview
     </a>
   </li>
 
@@ -280,8 +280,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../index2/" title="Getting Started" class="md-nav__link">
-      Getting Started
+    <a href="../GIT/" title="Github Integration" class="md-nav__link">
+      Github Integration
     </a>
   </li>
 
@@ -301,11 +301,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Installation
+        Installing MKDOCS
       </label>
     
-    <a href="./" title="Installation" class="md-nav__link md-nav__link--active">
-      Installation
+    <a href="./" title="Installing MKDOCS" class="md-nav__link md-nav__link--active">
+      Installing MKDOCS
     </a>
     
       
@@ -319,22 +319,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#background" title="Background" class="md-nav__link">
-    Background
+  <a href="#install" title="Install" class="md-nav__link">
+    Install
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#commands" title="Commands" class="md-nav__link">
-    Commands
+  <a href="#create-new-project" title="Create New Project" class="md-nav__link">
+    Create New Project
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" title="Project layout" class="md-nav__link">
-    Project layout
+  <a href="#start-mkdocs" title="Start Mkdocs" class="md-nav__link">
+    Start Mkdocs
   </a>
   
 </li>
@@ -371,22 +371,22 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#background" title="Background" class="md-nav__link">
-    Background
+  <a href="#install" title="Install" class="md-nav__link">
+    Install
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#commands" title="Commands" class="md-nav__link">
-    Commands
+  <a href="#create-new-project" title="Create New Project" class="md-nav__link">
+    Create New Project
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" title="Project layout" class="md-nav__link">
-    Project layout
+  <a href="#start-mkdocs" title="Start Mkdocs" class="md-nav__link">
+    Start Mkdocs
   </a>
   
 </li>
@@ -407,52 +407,27 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/bissessr/iaac-docs/edit/master/docs/index3.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/bissessr/iaac-docs/edit/master/docs/install.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h1>
-<p>More details to follow</p>
-<h2 id="background">Background<a class="headerlink" href="#background" title="Permanent link">&para;</a></h2>
-<p>More details to follow
-Kieran is a pain in the ass</p>
-<h2 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>…or create a new repository on the command line
-echo &quot;# iaac-docs&quot; &gt;&gt; README.md
-git init
-git add README.md
-git commit -m &quot;first commit&quot;
-git remote add origin https://github.com/bissessr/iaac-docs.git
-git push -u origin master
-…or push an existing repository from the command line
-git remote add origin https://github.com/bissessr/iaac-docs.git
-git push -u origin master
-
-
-…Git Hub Pages
-
-
-PS C:\Users\Raj\Documents\_LAB\_PROJECTS\iaac-docs&gt; mkdocs gh-deploy
-INFO    -  Cleaning site directory
-INFO    -  Building documentation to directory: C:\Users\Raj\Documents\_LAB\_PROJECTS\iaac-docs\site
-WARNING -  Version check skipped: No version specificed in previous deployment.
-INFO    -  Copying &#39;C:\Users\Raj\Documents\_LAB\_PROJECTS\iaac-docs\site&#39; to &#39;gh-pages&#39; branch and pushing to GitHub.
-INFO    -  Your documentation should shortly be available at: https://bissessr.github.io/iaac-docs/
-PS C:\Users\Raj\Documents\_LAB\_PROJECTS\iaac-docs&gt;
-</pre></div>
-
-
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs help</code> - Print this help message.</li>
-</ul>
-<h2 id="project-layout">Project layout<a class="headerlink" href="#project-layout" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>mkdocs.yml    # The configuration file.
+                <h1 id="installing-mkdocs">Installing MKDOCS<a class="headerlink" href="#installing-mkdocs" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="install">Install<a class="headerlink" href="#install" title="Permanent link">&para;</a></h2>
+<p>To install all required dependencies like Python and MkDocs, type
+<code>choco install mkdocs</code></p>
+<h2 id="create-new-project">Create New Project<a class="headerlink" href="#create-new-project" title="Permanent link">&para;</a></h2>
+<p>To create a new project, change to your documentation folder, and type
+<code>mkdocs new [dir-name]</code></p>
+<blockquote>
+<p>mkdocs.yml    # The configuration file.
 docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</pre></div>
+   index.md  # The documentation homepage.
+   ...       # Other markdown pages, images and other files.</p>
+</blockquote>
+<hr />
+<h2 id="start-mkdocs">Start Mkdocs<a class="headerlink" href="#start-mkdocs" title="Permanent link">&para;</a></h2>
+<p>To start the local http server, type</p>
+<p><code>mkdocs serve</code></p>
                 
                   
                 
@@ -473,7 +448,7 @@ docs/
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../index2/" title="Getting Started" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../GIT/" title="Github Integration" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -482,7 +457,7 @@ docs/
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Getting Started
+                Github Integration
               </span>
             </div>
           </a>
@@ -509,7 +484,7 @@ docs/
   <div class="md-footer-social">
     <link rel="stylesheet" href="../assets/fonts/font-awesome.css">
     
-      <a href="https://github.com/biissessr" class="md-footer-social__link fa fa-github"></a>
+      <a href="https://github.com/bissessr" class="md-footer-social__link fa fa-github"></a>
     
       <a href="https://twitter.com/cloud_guy1" class="md-footer-social__link fa fa-twitter"></a>
     

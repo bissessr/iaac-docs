@@ -1,9 +1,12 @@
-# Overview
-**More details to follow**
+# MKDOCS Overview
+MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
 
-- Item 1
-- Item 2
-- etc.
+MkDocs builds completely static HTML sites that you can host on GitHub pages, Amazon S3, or anywhere else you choose.
+
+The built-in dev-server allows you to preview your documentation as you're writing it. It will even auto-reload and refresh your browser whenever you save your changes.
+
+
+Get your project documentation looking just the way you want it by customizing the theme.
 
 ---
 ## Commands
