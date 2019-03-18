@@ -1,4 +1,6 @@
-# MKDOCS Overview
+# MKDOCS
+---
+## Overview
 MkDocs is a fast, simple and downright gorgeous static site generator that's geared towards building project documentation. Documentation source files are written in Markdown, and configured with a single YAML configuration file.
 
 MkDocs builds completely static HTML sites that you can host on GitHub pages, Amazon S3, or anywhere else you choose.
@@ -21,3 +23,6 @@ Get your project documentation looking just the way you want it by customizing t
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## More information
+[MKdocs](http://mkdocs.org)
