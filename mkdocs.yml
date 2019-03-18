@@ -1,6 +1,48 @@
-site_name: CloudGuy-IaaC Documentation
-site_description: Cloudguy Documentation
-theme: material
-repo_url: https://github.com/bissessr/TF-IAC-2019
-copyright: Copyright &copy; 2019, <a href="www.linkedin.com/in/raj-bissessar"
-google_analytics: ['UA-27795084-5', 'mkdocs.org']
+# Project information
+site_name: 'CloudGuy Documentation'
+site_description: 'Project Documentation'
+site_author: 'Raj Bissessar'
+site_url: 'https://github.com/bissessr/iaac-docs/'
+
+# Repository
+repo_name: 'bissessr/iaac-docs'
+repo_url: 'https://github.com/bissessr/iaac-docs'
+
+# Copyright
+copyright: 'Copyright &copy; 2018 - 2019 Raj Bissessar'
+
+# Configuration
+theme:
+  name: 'material'
+  language: 'en'
+  palette:
+    primary: 'blue grey'
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Customization
+extra:
+  manifest: 'manifest.webmanifest'
+  social:
+    - type: 'github'
+      link: 'https://github.com/biissessr'
+    - type: 'twitter'
+      link: 'https://twitter.com/cloud_guy1'
+    - type: 'linkedin'
+      link: 'https://linkedin.com/in/raj-bissessar'
+
+# Google Analytics
+google_analytics:
+  - 'UA-XXXXXXXX-X'
+  - 'auto'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
