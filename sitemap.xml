@@ -6,12 +6,32 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/bissessr/iaac-docs/GIT/</loc>
+     <loc>https://github.com/bissessr/iaac-docs/2019 Roadmap/</loc>
      <lastmod>2019-03-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://github.com/bissessr/iaac-docs/install/</loc>
+     <loc>https://github.com/bissessr/iaac-docs/mkdocs/</loc>
+     <lastmod>2019-03-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://github.com/bissessr/iaac-docs/mkdocs/GIT/</loc>
+     <lastmod>2019-03-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://github.com/bissessr/iaac-docs/mkdocs/install/</loc>
+     <lastmod>2019-03-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://github.com/bissessr/iaac-docs/project_onboarding/ARB/</loc>
+     <lastmod>2019-03-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://github.com/bissessr/iaac-docs/project_onboarding/TDP/</loc>
      <lastmod>2019-03-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
