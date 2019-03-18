@@ -14,6 +14,7 @@ copyright: 'Copyright &copy; 2018 - 2019 Raj Bissessar'
 # Configuration
 theme:
   name: 'material'
+  #name: 'windmill'
   language: 'en'
   palette:
     primary: 'blue grey'
